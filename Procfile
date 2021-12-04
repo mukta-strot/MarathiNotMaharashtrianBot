@@ -1,0 +1,1 @@
+worker: python Somali-bot.py

@@ -1,0 +1,7 @@
+client_secret=''
+username=''
+password = ''
+user_agent = ''
+client_id=''
+airtable_Api_key=''
+airtable_base = ''

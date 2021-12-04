@@ -1,0 +1,13 @@
+certifi==2020.6.20
+chardet==3.0.4
+idna==2.10
+praw==7.1.0
+prawcore==1.4.0
+pyairtable==1.0.0.post1
+regex==2020.6.8
+requests==2.24.0
+six==1.15.0
+threaded==4.0.8
+update-checker==0.17
+urllib3==1.25.9
+websocket-client==0.57.0
