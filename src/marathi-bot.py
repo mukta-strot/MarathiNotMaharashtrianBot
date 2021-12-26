@@ -34,11 +34,10 @@ def commentReply():
                     print(
                         f"Replying to a comment made by {author} who said  : {comment.body}")
                     time.sleep(5)
-                    comment.reply(
-                        f"""Hi, __ {author}__. Your comment contains the word ~~Maharashtrian~~.\n\n
-                        The correct ethnic demonym(s) for Marathis people is __Marathi__.\n\n
-                        It's a common mistake so don't feel bad.\n\n
-                        ___This action was performed automatically by a bot.___""")
+                    comment.reply(f"""Hi, __{author}__. Your comment contains the word ~~Maharashtrian~~.  
+The correct ethnic demonym(s) for Marathis people is __Marathi__.  
+It's a common mistake so don't feel bad.  
+___This action was performed automatically by a bot.___""")
                 except:
                     print("too frequent")
 
@@ -52,12 +51,10 @@ def submissionReply():
                 print("Replying to a post made by " + author +
                       " who posted:  " + submisison.title)
                 time.sleep(5)
-                submisison.reply(
-
-                    f"""Hi, __ {author}__. Your comment contains the word ~~Maharashtrian~~.\n\n
-                        The correct ethnic demonym(s) for Marathis people is __Marathi__.\n\n
-                        It's a common mistake so don't feel bad.\n\n
-                        ___This action was performed automatically by a bot.___""")
+                submisison.reply(f"""Hi, __{author}__. Your comment contains the word ~~Maharashtrian~~.  
+The correct ethnic demonym(s) for Marathis people is __Marathi__.  
+It's a common mistake so don't feel bad.  
+___This action was performed automatically by a bot.___""")
             except:
                 print("too frequent")
 
