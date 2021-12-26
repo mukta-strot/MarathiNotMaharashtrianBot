@@ -1,1 +1,1 @@
-worker: python Somali-bot.py
+worker: python src/marathi-bot.py
