@@ -16,7 +16,7 @@ CLIENT_ID = os.getenv('CLIENT_ID')
 reddit = praw.Reddit(client_id=CLIENT_ID, client_secret=CLIENT_SECRET,
                      username=USERNAME, password=PASSWORD, user_agent=USER_AGENT)
 
-subreddit = reddit.subreddit("Marathi")
+subreddit = reddit.subreddit("Marathi+testingground4bots")
 keyphrase = re.compile(
     r'^maharashtrian\b|\s\bmaharashtrian\b|\bmaharashtrians', re.IGNORECASE)
 username = USERNAME
