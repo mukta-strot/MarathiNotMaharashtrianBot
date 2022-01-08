@@ -35,27 +35,27 @@ def commentReply():
                         f"Replying to a comment made by {author} who said  : {comment.body}")
                     time.sleep(5)
                     comment.reply(f"""_\< English follows Marathi \>_
-                    
+
                     नमस्कार __{author}__!
-                    
+
                     आपल्या टिप्पणीत ~~महाराष्ट्रीयन~~ किंवा ~~Maharashtrian~~ असा शब्द आढळला आहे.
-                    
+
                     मराठी लोकांचा उल्लेख करण्यासाठी योग्य शब्द हा __मराठी__ असा आहे. (बंगाली, पंजाबी, गुजराती वगैरे सारखे.)
-                    
+
                     ही चूक बरेच जण करतात, त्यामुळे वाईट वाटून घेऊ नका. :)
-                    
+
                     _हा संदेश एका स्वयंचलित बॉटने पाठवला आहे._
-                    
+
                     -----------
-                    
+
                     Namaskar __{author}__!
-                    
+
                     Your comment contains the word ~~महाराष्ट्रीयन~~ or ~~Maharashtrian~~.
-                    
+
                     The correct demonym for Marathis is __Marathi__. (Similar to Bengali, Punjabi, Gujrati etc.)
-                    
+
                     It's a common mistake so don't feel bad.  :)
-                    
+
                     _This message was sent automatically by a bot._""")
                 except:
                     print("too frequent")
@@ -71,27 +71,27 @@ def submissionReply():
                       " who posted:  " + submisison.title)
                 time.sleep(5)
                 submisison.reply(f"""_\< English follows Marathi \>_
-                
+
                 नमस्कार __{author}__!
-                
+
                 आपल्या पत्रकात ~~महाराष्ट्रीयन~~ किंवा ~~Maharashtrian~~ असा शब्द आढळला आहे.
-                
+
                 मराठी लोकांचा उल्लेख करण्यासाठी योग्य शब्द हा __मराठी__ असा आहे. (बंगाली, पंजाबी, गुजराती वगैरे सारखे.)
-                
+
                 ही चूक बरेच जण करतात, त्यामुळे वाईट वाटून घेऊ नका. :)
-                
+
                 _हा संदेश एका स्वयंचलित बॉटने पाठवला आहे._
-                
+
                 -----------
-                
+
                 Namaskar __{author}__!
-                
+
                 Your post contains the word ~~महाराष्ट्रीयन~~ or ~~Maharashtrian~~.
-                
+
                 The correct demonym for Marathis is __Marathi__. (Similar to Bengali, Punjabi, Gujrati etc.)
-                
+
                 It's a common mistake so don't feel bad. :)
-                
+
                 _This message was sent automatically by a bot._""")
             except:
                 print("too frequent")
