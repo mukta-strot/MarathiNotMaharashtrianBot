@@ -34,6 +34,12 @@ The username limit in Reddit is 20 characters, so had to name it as _MarathiDemo
 4. Create a `.env` file in the root like the `.env.example` file.
 5. `python src/marathi-bot.py`
 
+## Contributing
+
+Contributions are welcome! Please use the `develop` branch for sending PRs.
+
+---
+
 ### SomaliNotSomalianBot reference -
 
 - [Reddit link](https://reddit.com/user/SomaliNotSomalianbot/)
