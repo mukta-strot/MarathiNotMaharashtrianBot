@@ -18,7 +18,7 @@ reddit = praw.Reddit(client_id=CLIENT_ID, client_secret=CLIENT_SECRET,
 
 subreddit = reddit.subreddit("marathi+testingground4bots+pune+Indiaspeaks")
 keyphrase = re.compile(
-   r'^maharashtrian\b|\s\bmaharashtrian\b|\bmaharashtrians|^महाराष्ट्रीयन\s|\sमहाराष्ट्रीयन\s', re.IGNORECASE)
+   r'^maharashtrian\b|\s\bmaharashtrian\b|\bmaharashtrians|^महाराष्ट्रीयन\s|\sमहाराष्ट्रीयन\s|\sमहाराष्ट्रीयन', re.IGNORECASE)
 username = USERNAME
 correction = 'Marathi (मराठी) not maharashtrian'
 
