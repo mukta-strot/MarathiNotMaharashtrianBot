@@ -78,8 +78,9 @@ if __name__ == "__main__":
     t_commentReply = threading.Thread(target=commentReply)
     t_submissionReply = threading.Thread(target=submissionReply)
 
-    t_commentReply.start()
-    t_submissionReply.start()
-    t_submissionReply.join()
-    t_commentReply.join()
-    print("Done")
+#    0324 - temporarily disable all functions
+#    t_commentReply.start()
+#    t_submissionReply.start()
+#    t_submissionReply.join()
+#    t_commentReply.join()
+#    print("Done")
